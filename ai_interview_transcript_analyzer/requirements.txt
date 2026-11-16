@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+streamlit
+python-pptx   # only needed for fill_ppt.py

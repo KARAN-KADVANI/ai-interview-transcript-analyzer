@@ -1,0 +1,13 @@
+Algorithms: algorithm, heap, use, min, min heap, pars, like, half
+Back-end: databas, bet, flexibility, nosql databas, nosql, scal, uncontrollabl, race
+Data Structures: dynamic, sort, lock, compar, search, node, hash, divid
+Database and SQL: performanc, index, query, sql, denormaliz, row, query performanc, normaliz
+DevOps: deploy, automat, applicat, contain, platform, environ, automat deploy, production
+Front-end: lifecycl, react, initial, component, function, load time, load, variabl acces
+General Programming: code, method, polymorphism, abstract, common, stack, line, executabl
+Languages and Frameworks: scop, library, global, java, execution, out, javascript, thread
+Security: authenticat, security, attack, password, ids, acces, using, oauth
+Software Testing: test, identify, code, issu, defect, expect, test evaluat, evaluat
+System Design: focu, high, efficient, latency, messag, handl, load, fault toleranc
+Version Control: branch, merg, repository, work, distribut, git distribut, git, review
+Web Development: http, content, request, web, http request, content structur, screen, css

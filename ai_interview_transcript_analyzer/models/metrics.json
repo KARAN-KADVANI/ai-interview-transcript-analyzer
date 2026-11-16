@@ -1,0 +1,96 @@
+{
+  "dataset": {
+    "file": "Software Questions.csv",
+    "rows_raw": 200,
+    "rows_used": 147,
+    "n_categories": 13,
+    "categories": {
+      "System Design": 24,
+      "DevOps": 15,
+      "Security": 13,
+      "Data Structures": 11,
+      "Languages and Frameworks": 10,
+      "Database and SQL": 10,
+      "Web Development": 10,
+      "Software Testing": 10,
+      "Version Control": 10,
+      "Algorithms": 10,
+      "General Programming": 9,
+      "Front-end": 8,
+      "Back-end": 7
+    },
+    "avg_answer_words": 17.0,
+    "avg_question_words": 8.7,
+    "columns_detected": {
+      "question": "Question",
+      "answer": "Answer",
+      "category": "Category",
+      "difficulty": "Difficulty"
+    }
+  },
+  "split": {
+    "train_rows": 117,
+    "test_rows": 30,
+    "seed": 42,
+    "cv_folds": 5
+  },
+  "category_model": {
+    "best_model": "Linear SVM (calibrated)",
+    "cv_results": {
+      "Majority baseline": {
+        "cv_accuracy_mean": 0.16231884057971016,
+        "cv_accuracy_std": 0.01626807559466931,
+        "cv_macro_f1_mean": 0.02145831376600607
+      },
+      "Naive Bayes": {
+        "cv_accuracy_mean": 0.3166666666666667,
+        "cv_accuracy_std": 0.08044294252904054,
+        "cv_macro_f1_mean": 0.19766291679335155
+      },
+      "Logistic Regression": {
+        "cv_accuracy_mean": 0.5731884057971015,
+        "cv_accuracy_std": 0.04011116667564653,
+        "cv_macro_f1_mean": 0.46119658119658125
+      },
+      "Linear SVM (calibrated)": {
+        "cv_accuracy_mean": 0.5818840579710145,
+        "cv_accuracy_std": 0.0956508014833469,
+        "cv_macro_f1_mean": 0.5064224664224664
+      }
+    },
+    "test_accuracy": 0.5333333333333333,
+    "test_macro_f1": 0.417948717948718,
+    "test_weighted_f1": 0.4777777777777778,
+    "test_accuracy_all_models": {
+      "Majority baseline": 0.16666666666666666,
+      "Naive Bayes": 0.36666666666666664,
+      "Logistic Regression": 0.5,
+      "Linear SVM (calibrated)": 0.5333333333333333
+    },
+    "baseline_accuracy": 0.16666666666666666
+  },
+  "relevance_model": {
+    "test_roc_auc": 0.8864406779661017,
+    "test_accuracy": 0.797752808988764,
+    "test_precision": 0.7,
+    "test_recall": 0.7,
+    "test_f1": 0.7,
+    "baseline_word_cosine_auc": 0.7875706214689264,
+    "n_test_pairs": 89,
+    "feature_weights": {
+      "word_cosine": 1.677,
+      "char_cosine": 1.466,
+      "lsa_cosine": 0.057,
+      "coverage": -0.437,
+      "jaccard": 0.525
+    },
+    "retrieval_top1": 0.5666666666666667,
+    "retrieval_top3": 0.8,
+    "retrieval_mrr": 0.7033333333333334,
+    "retrieval_random_top1": 0.03333333333333333,
+    "baseline_cosine_top1": 0.5333333333333333,
+    "baseline_cosine_top3": 0.8666666666666667,
+    "baseline_cosine_mrr": 0.7094444444444444,
+    "n_test_questions": 30
+  }
+}

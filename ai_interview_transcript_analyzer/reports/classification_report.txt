@@ -1,0 +1,19 @@
+                          precision    recall  f1-score   support
+
+              Algorithms       0.33      1.00      0.50         2
+                Back-end       0.00      0.00      0.00         1
+         Data Structures       0.33      0.50      0.40         2
+        Database and SQL       1.00      0.50      0.67         2
+                  DevOps       0.67      0.67      0.67         3
+               Front-end       0.00      0.00      0.00         2
+     General Programming       0.50      1.00      0.67         2
+Languages and Frameworks       0.00      0.00      0.00         2
+                Security       1.00      0.67      0.80         3
+        Software Testing       0.33      0.50      0.40         2
+           System Design       0.75      0.60      0.67         5
+         Version Control       0.00      0.00      0.00         2
+         Web Development       0.50      1.00      0.67         2
+
+                accuracy                           0.53        30
+               macro avg       0.42      0.49      0.42        30
+            weighted avg       0.49      0.53      0.48        30
